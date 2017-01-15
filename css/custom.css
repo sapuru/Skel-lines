@@ -4,6 +4,14 @@ body {
   color:white;
 }
 
+/* COLORES
+violeta oscuro: 490A3D  //  73,10,61
+rosa oscuro: BD1550 //  189,21,80
+rosa claro: FE4365 //  254,67,101
+amarillo: F8CA00 //  248,202,0
+verde: 8A9B0F  //  138,155,15
+*/
+
 /* Botones
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
@@ -44,23 +52,16 @@ input[type="button"].button-primary:focus {
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.phones {
-  position: relative;
+.hero {
+    border-top: 1px solid #8A9B0F;
 }
-.phone {
-  position: relative;
-  max-width: 80%;
-  margin: 3rem auto -12rem;
-}
-.phone + .phone {
-  display: none;
+.profile {
+  border-radius:5%;
 }
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
 }
@@ -79,7 +80,7 @@ input[type="button"].button-primary:focus {
 /* Help
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-help {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #FE4365;
 }
 
 /* Categories
@@ -120,6 +121,7 @@ input[type="button"].button-primary:focus {
   }
   .hero-heading {
     font-size: 2.4rem;
+    line-height: 1.3em;
   }
 }
 
@@ -130,6 +132,7 @@ input[type="button"].button-primary:focus {
   }
   .hero-heading {
     font-size: 2.6rem;
+    line-height: 1.5em;
   }
   .section {
     padding: 14rem 0 15rem;
@@ -166,6 +169,7 @@ input[type="button"].button-primary:focus {
   }
   .hero-heading {
     font-size: 3.0rem;
+    line-height: 1.8em;
   }
   .phone {
     top: -16rem;
