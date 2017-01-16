@@ -364,7 +364,7 @@ Glitch Effect
   color: #ffffff;
 }
 .glitch-transition .cd-main-content {
-  background: #2e2f36;
+  background: transparent;
 }
 .glitch-transition .cd-modal {
   background: #ffffff;
@@ -385,7 +385,7 @@ Glitch Effect
 .glitch-transition .cd-transition-layer .bg-layer {
   /* sprite composed of 25 frames */
   width: 2500%;
-  background-image: url(../img/glitch.png);
+  background-image: url(../images/glitch.png);
 }
 .glitch-transition .cd-transition-layer.opening .bg-layer {
   -webkit-animation: cd-sequence 0.8s steps(24) forwards;
