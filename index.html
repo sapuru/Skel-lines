@@ -23,12 +23,13 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/decolines.css" />
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 </head>
 <body>
 
@@ -51,11 +52,45 @@
         <div class="dummy__icon"><svg class="icon icon--logo"><use xlink:href="#icon-logo"></use></div>
         <div class="dummy__icon"><svg class="icon icon--logo"><use xlink:href="#icon-logo"></use></div>
       </div>
+      <nav id="cd-vertical-nav">
+        <ul>
+          <li>
+            <a href="#" data-number="1">
+              <span class="cd-dot"></span>
+              <span class="cd-label">Intro</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about" data-number="2">
+              <span class="cd-dot"></span>
+              <span class="cd-label">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#workflow" data-number="3">
+              <span class="cd-dot"></span>
+              <span class="cd-label">Workflow</span>
+            </a>
+          </li>
+          <li>
+            <a href="#porfolio" data-number="4">
+              <span class="cd-dot"></span>
+              <span class="cd-label">Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contacto" data-number="5">
+              <span class="cd-dot"></span>
+              <span class="cd-label">Contacto</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
       <header class="codrops-header">
         <h1 class="codrops-header__title"><img src="images/logo-white-vect.png"/></h1>
       </header>
   </div>
-
 
   <div class="section hero" id="about">
     <div class="container">
@@ -132,6 +167,7 @@
 
 <script src="js/anime.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/nav.js"></script>
 <script>
 (function() {
 var lineMaker = new LineMaker({
